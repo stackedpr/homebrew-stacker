@@ -1,9 +1,9 @@
 class Stacker < Formula
   desc "Create Stacked Pull Requests"
   homepage "https://stacker-site.yairhaimo.now.sh/"
-  url "https://homebrew-stacker.yairhaimo.now.sh/stacker-v0.0.5.tar.gz"
-  version "0.0.5"
-  sha256 "da20db4d4e7712f02df4e24e02e064618163098a0a37a02dd7463a4f3a1dcad4"
+  url "https://homebrew-stacker.yairhaimo.now.sh/stacker-v0.0.6.tar.gz"
+  version "0.0.6"
+  sha256 "929d47c2778a4a4fc1d0f4d4f0d2db0196782e1b97a190b77a5e555cffe4994e"
   depends_on "hub"
 
   def install
@@ -11,6 +11,6 @@ class Stacker < Formula
   end
 
   test do
-    assert_match "Stacker v0.0.5", shell_output("#{bin}/stacker --version", 2)
+    assert_match "Stacker v0.0.6", shell_output("#{bin}/stacker --version", 2)
   end
 end
