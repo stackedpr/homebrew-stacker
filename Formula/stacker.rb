@@ -1,9 +1,9 @@
 class Stacker < Formula
   desc "Create Stacked Pull Requests"
   homepage "https://stacker-site.yairhaimo.now.sh/"
-  url "https://homebrew-stacker.yairhaimo.now.sh/stacker-v0.0.2.tar.gz"
-  version "0.0.2"
-  sha256 "822d838630b27c63b57140b569c69ddcc1ba85c87018881afe29f3b52ce40c04"
+  url "https://homebrew-stacker.yairhaimo.now.sh/stacker-v0.0.4.tar.gz"
+  version "0.0.4"
+  sha256 "a22448817154c8731d9a168c60f4bafb3c97f49d7eff34667fe6999f5faca559"
   depends_on "hub"
 
   def install
