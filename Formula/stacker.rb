@@ -1,9 +1,9 @@
 class Stacker < Formula
   desc "Create Stacked Pull Requests"
   homepage "https://stacker-site-yairhaimo.vercel.app/"
-  url "https://homebrew-stacker-yairhaimo.vercel.app/stacker-v0.0.14.tar.gz"
-  version "0.0.14"
-  sha256 "68a8c0672edc2c55da64f3a109f15df9eba4e4bbcb9aad63189ecf35b40e891f"
+  url "https://homebrew-stacker-yairhaimo.vercel.app/stacker-v0.0.15.tar.gz"
+  version "0.0.15"
+  sha256 "a3d4fdbbf013323b14138a8c135f7f7330ad24b5caf91fb9226be4c8dbbd2cc9"
   depends_on "gh"
 
   def install
@@ -11,6 +11,6 @@ class Stacker < Formula
   end
 
   test do
-    assert_match "Stacker v0.0.14", shell_output("#{bin}/stacker --version", 2)
+    assert_match "Stacker v0.0.15", shell_output("#{bin}/stacker --version", 2)
   end
 end
